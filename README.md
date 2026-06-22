@@ -9,6 +9,10 @@
 
 `xiuleiyun-admin-web` 是一个基于 Vue 3、Vite、Pinia 和 Element Plus 的管理后台前端项目，用于应用资源管理、应用上传、封面上传、节点状态查看、同步操作和登录鉴权等后台工作流。
 
+## 效果展示
+
+![嗅垒云后台管理系统效果展示](docs/images/xiuleiyun-admin-preview.png)
+
 ## 功能
 
 - 登录鉴权与本地 token 持久化。

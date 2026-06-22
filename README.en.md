@@ -9,6 +9,10 @@
 
 `xiuleiyun-admin-web` is a Vue 3, Vite, Pinia, and Element Plus admin frontend for application resource management, uploads, cover management, node status views, synchronization actions, and login-based access control.
 
+## Preview
+
+![xiuleiyun admin web preview](docs/images/xiuleiyun-admin-preview.png)
+
 ## Features
 
 - Login flow with persisted local token state.
