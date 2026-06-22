@@ -2,7 +2,7 @@
 // import { onMounted } from 'vue'
 
 import { ref, onMounted, onUnmounted } from 'vue'
-import { deleteAppRequest, disconnectStreamerRequest, getStreamerList } from '@/api/exec.js'
+import { disconnectStreamerRequest, getStreamerList } from '@/api/exec.js'
 
 let streamerList = ref([])
 

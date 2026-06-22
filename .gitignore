@@ -7,12 +7,22 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Environment files
+.env
+.env.*
+!.env.example
+
 node_modules
 .DS_Store
 dist
 dist-ssr
 coverage
 *.local
+.vite
+.cache
+.eslintcache
+tmp/
+temp/
 
 /cypress/videos/
 /cypress/screenshots/

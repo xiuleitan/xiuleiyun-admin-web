@@ -86,18 +86,4 @@ const onRefresh = () => {
 .btn:active {
   box-shadow: 1px 5px 0 rgba(0, 0, 0, 0.1) inset;
 }
-.slide-verify {
-  //width: 80%;
-  //margin: 0 auto;
-  //padding: 20px;
-  //border: 1px solid #ccc;
-  //border-radius: 5px;
-  //background-color: #f5f5f5;
-  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  //text-align: center;
-  //font-size: 14px;
-  //color: #666;
-  //line-height: 1.5;
-  //margin-top: 20px;
-}
 </style>

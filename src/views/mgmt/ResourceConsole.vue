@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, defineModel, watch, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { getNodesRequest } from '@/api/mgmt.js'
 // import { Refresh } from '@element-plus/icons-vue'
 

@@ -126,37 +126,6 @@ watch(
 //   videoElement.value.play()
 // })
 
-// 切换全屏
-const toggleFullScreen = () => {
-  var elem = document.documentElement // 修改这里，使用 document.documentElement
-
-  if (
-    !document.fullscreenElement &&
-    !document.mozFullScreenElement &&
-    !document.webkitFullscreenElement &&
-    !document.msFullscreenElement
-  ) {
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen()
-    } else if (elem.msRequestFullscreen) {
-      elem.msRequestFullscreen()
-    } else if (elem.mozRequestFullScreen) {
-      elem.mozRequestFullScreen()
-    } else if (elem.webkitRequestFullscreen) {
-      elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT)
-    }
-  } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen()
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen()
-    } else if (document.mozCancelFullScreen) {
-      document.mozCancelFullScreen()
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen()
-    }
-  }
-}
 // 进入全屏
 const requestFullScreen = () => {
   var de = document.documentElement

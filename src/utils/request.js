@@ -2,15 +2,13 @@ import axios from 'axios'
 import { useUserStore } from '@/stores/'
 import router from '@/router'
 
-const baseURL = 'https://v.bitdj.life:8186' // api服务器地址
-// const baseURL = '/dev-api'
+const baseURL = import.meta.env.VITE_API_BASE_URL || ''
 
 const instance = axios.create({
   // TODO 1. 基础地址，超时时间
   baseURL,
   timeout: 10000
 })
-let isUpload = false
 // 请求拦截器
 instance.interceptors.request.use(
   (config) => {
